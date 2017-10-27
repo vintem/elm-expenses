@@ -21,7 +21,8 @@ init =
 
 
 type Msg
-    = NoOp
+    = Expand
+    | Collapse
 
 
 
@@ -30,8 +31,14 @@ type Msg
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ text model ]
+    if model then
+        div []
+            [ button [ onClick Collapse ] [ text "Collapse" ]
+            , text "Widget"
+            ]
+    else
+        div []
+            [ button [ onClick Expand ] [ text "Expand" ] ]
 
 
 
