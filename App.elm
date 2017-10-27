@@ -1,13 +1,14 @@
 module App exposing (..)
 
-import Html exposing (Html, div, text, program)
+import Html exposing (Html, button, div, text, program)
+import Html.Events exposing (onClick)
 
 
 -- MODEL
 
 
 type alias Model =
-    String
+    Bool
 
 
 init : ( Model, Cmd Msg )

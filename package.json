@@ -1,0 +1,24 @@
+{
+  "name": "elm-expenses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "elm": "^0.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vintem/elm-expenses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vintem/elm-expenses/issues"
+  },
+  "homepage": "https://github.com/vintem/elm-expenses#readme"
+}
